@@ -1,0 +1,431 @@
+/* MOCK UP CSS OF THEME */
+.section-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 72rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  
+  @media (min-width: 768px) {
+    .section-wrapper {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .section-wrapper {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+/* FIX CONFLICT CSS WITH SOURCE */
+.course-landing-page p {
+    margin: 0px 0px 16px 0px;
+}
+
+.course-landing-page img {
+    max-width: none;
+}
+
+
+/* PROGRAMMING FUNDAMENTALS COURSE */
+.course-banner {
+    padding: 50px 0px;
+    background: #F5F5F5;
+}
+
+.course-banner-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-banner-image {
+    min-width: 50%;
+}
+
+.about-course {
+    padding: 50px 0px;
+}
+
+.about-course-content {
+
+}
+
+.card-benefit {
+    background-color: #545BE8;
+    min-height: 267px;
+    min-width: 267px;
+    padding: 40px 16px;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card-benefit .icon {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #F0C932;
+    text-align: center;
+    line-height: 48px;
+    font-size: 20px;
+}
+
+.benefit-wrapper {
+    display: flex;
+    overflow: hidden;
+    gap: 40px;
+}
+
+.btn-carousel-benefit {
+    border-radius: 50%;
+    color: #fff;
+}
+
+.career-opportunities {
+    background-color: #545BE8;
+    padding: 40px;
+}
+
+.career-opportunities-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.list-course {
+    padding: 40px;
+}
+
+.list-course-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.row-items {
+    display: flex;
+    gap: 30px;
+    margin: 30px 0px;
+}
+
+.course-card {
+    box-shadow: 0px 18.05851173400879px 18.05851173400879px 0px #0000000D;
+    border-radius: 10px;
+    width: 328px;
+}
+
+.course-info {
+    padding: 15px;
+}
+
+.course-description {
+    margin-top: 30px;
+}
+
+.register-form {
+    background: #CE2029;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 10px ;
+}
+
+textarea {
+    width: 100%;
+    height: 85px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    padding-left: 10px ;
+}
+
+.btn-register-form {
+    background: #F0C932;
+    color: #fff;
+    margin: 0px;
+    width: 170px;
+    height: 48px;
+    border-radius: 10px;
+}
+
+.btn-register-form:hover {
+    background: #e1bd2f;
+}
+
+.card-testimonial {
+    box-shadow: 0px 20px 20px 0px #0000001A;
+    padding: 40px;
+    height: 100%;
+}
+
+.card-testimonial img {
+    margin: 0px 20px 20px 0px;
+}
+
+.rate {
+    display: flex;
+    padding: 0px;
+    gap: 20px;
+}
+
+.rate li{
+    display: inline-block;
+    color: #F0C932;
+}
+
+/* GRAPHIC DESIGN COURSE */
+.design-course-banner {
+    background-image: url("assets/banner-graphic-design-course.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.design-course-banner-content {
+    padding: 140px 0px 140px 180px;
+}
+
+.suitable-subject {
+    padding: 50px 0px;
+}
+
+.subjects-info {
+    padding-right: 50px;
+}
+
+.subject-list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.result-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.result-list li {
+    display: flex;
+    gap: 30px;
+}
+
+.card-expert {
+    box-shadow: 0px 20px 20px 0px #0000001A;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card-expert img {
+    margin: 0px 20px 20px 0px;
+    border-radius: 20px;
+}
+
+.button-view-expert {
+    background: #FF6F06;
+    color: #fff;
+    width: 60px;
+    height: 37px;
+}
+
+.button-view-expert:hover {
+    background: #fa944b;
+    color: #fff;
+}
+
+.students {
+    margin-top: 50px;
+}
+
+.card-student {
+    box-shadow: 0px 20px 20px 0px #0000001A;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+/* COMMON COMPONENT */
+header {
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    padding: 8px 0px;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-register {
+    background: #CE2029;
+    color: #fff;
+    border-radius: 10px;
+    width: 170px;
+    height: 48px;
+    padding: 13px, 49px, 13px, 49px;
+    border: none;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn-register:hover {
+    background: #ee323c;
+    color: #fff;
+}
+
+footer {
+    background: #454BBF;
+    margin-top: 70px;
+}
+
+.page-footer {
+    padding: 80px 0px;
+    color: #fff;
+}
+
+/* .socials {
+    display: flex;
+    padding: 0px;
+    gap: 20px;
+}
+
+.socials li{
+    display: inline-block;
+}
+
+.site-map {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 40px;
+}
+
+.site-map li {
+    margin-top: 20px;
+    font-size: 14px;
+} */
+
+/* @media all and (max-width: 480px) {
+    .course-banner-content {
+        display: block;
+    }
+    .career-opportunities-content {
+        display: block;
+    }
+    .list-course-content {
+        display: block;
+    }
+    .course-description {
+        display: flex;
+        justify-content: space-between;
+    }
+} */
+
+/* ----------------------------------------------------------------- */
+/* Custom shorten CSS */
+/* ----------------------------------------------------------------- */
+
+.text-red {
+    color: #CE2029;
+}
+
+.text-purple {
+    color: #545BE8;
+}
+
+.text-lightgrey {
+    color: #969696;
+}
+
+.text-gainsboro {
+    color: gainsboro;
+}
+
+.text-yellow {
+    color: #F0C932;
+}
+
+.ff-lexend {
+    font-family: 'Lexend', sans-serif;
+}
+
+.ff-popins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.ff-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.fs-64 {
+    font-size: 64px;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.fs-46 {
+    font-size: 46px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
